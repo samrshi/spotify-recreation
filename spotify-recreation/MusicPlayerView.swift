@@ -188,7 +188,7 @@ struct MusicPlayerView: View {
     }
     
     func didTapFastforward() {
-        changeSong(action: rewind)
+        changeSong(action: fastforward)
     }
     
     func changeSong(action: () -> Void) {
